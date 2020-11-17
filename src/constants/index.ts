@@ -1,0 +1,1 @@
+export const USER_REGISTRATION_DATE = '2018-12-12';

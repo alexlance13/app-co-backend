@@ -1,0 +1,15 @@
+{
+  "type": "sqlite",
+  "database": "db.users.sqlite3",
+  "logging": false,
+  "synchronize": false,
+  "entities": [
+     "lib/db/entities/**/*.js"
+  ],
+  "migrations": [
+     "lib/db/migration/**/*.js"
+  ],
+  "subscribers": [
+     "lib/db/subscriber/**/*.js"
+  ]
+}
